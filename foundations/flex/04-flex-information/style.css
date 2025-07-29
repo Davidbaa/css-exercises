@@ -5,11 +5,29 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  gap: 52px;
+}
+
+.object {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.text {
   text-align: center;
 }
 
